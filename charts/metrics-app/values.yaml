@@ -126,8 +126,7 @@ tolerations: []
 
 affinity: {}
 
+# This is the secret for the password
 env:
   passwordSecret: metrics-app-secret
-
-# This is the secret for the password
-password: "MYPASSWORD"
+  password: MYPASSWORD
