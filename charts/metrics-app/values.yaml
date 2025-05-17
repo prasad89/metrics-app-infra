@@ -67,7 +67,7 @@ ingress:
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
   hosts:
-    - host: metrics-app.local
+    - host: localhost
       paths:
         - path: /counter
           pathType: Prefix
